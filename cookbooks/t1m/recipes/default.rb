@@ -1,5 +1,6 @@
+
 #
-# Cookbook Name:: phpapp
+# Cookbook Name:: t1m
 # Recipe:: default
 #
 # Copyright 2015, YOUR_COMPANY_NAME
@@ -9,5 +10,5 @@
 include_recipe "apache2"
 
 apache_site "default" do
-  enable true
+	enable true
 end

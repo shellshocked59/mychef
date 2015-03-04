@@ -1,3 +1,4 @@
+//We tell chef to run the apt cookbook followed by our phpapp cookbook. Why have we not included the apt cookbook inside our recipe as we did with the apache2 cookbook? It's because our PHP application requires Apache to function but we don't necessarily want to tie our cookbook to platforms that only support apt.
 {
-  "run_list": [ "recipe[apt]", "recipe[phpapp]" ]
+  "run_list": [ "recipe[apt]", "recipe[t1m]" ]
 }

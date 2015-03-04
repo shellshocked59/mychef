@@ -1,1 +1,1 @@
-cookbook_path [ '/media/sf_www/chef/mychef/cookbooks' ]
+cookbook_path [ '/var/www/html/windows/chef/mychef/cookbooks' ]

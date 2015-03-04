@@ -1,5 +1,5 @@
-phpapp Cookbook
-===============
+t1m Cookbook
+============
 TODO: Enter the cookbook description here.
 
 e.g.
@@ -11,14 +11,14 @@ TODO: List your cookbook requirements. Be sure to include any requirements this 
 
 e.g.
 #### packages
-- `toaster` - phpapp needs toaster to brown your bagel.
+- `toaster` - t1m needs toaster to brown your bagel.
 
 Attributes
 ----------
 TODO: List you cookbook attributes here.
 
 e.g.
-#### phpapp::default
+#### t1m::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +27,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['phpapp']['bacon']</tt></td>
+    <td><tt>['t1m']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -36,17 +36,17 @@ e.g.
 
 Usage
 -----
-#### phpapp::default
+#### t1m::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `phpapp` in your node's `run_list`:
+Just include `t1m` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[phpapp]"
+    "recipe[t1m]"
   ]
 }
 ```
